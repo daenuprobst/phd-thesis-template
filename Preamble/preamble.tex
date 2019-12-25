@@ -45,8 +45,12 @@
 % **************************** Custom Packages ********************************
 
 % ************************* Algorithms and Pseudocode **************************
+\usepackage{algorithm}
+\usepackage{algpseudocode}
 
-%\usepackage{algpseudocode}
+\newcommand*\Let[2]{\State #1 $\gets$ #2}
+\algrenewcommand\algorithmicrequire{\textbf{Precondition:}}
+\algrenewcommand\algorithmicensure{\textbf{Postcondition:}}
 
 
 % ********************Captions and Hyperreferencing / URL **********************
